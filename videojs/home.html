@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="functions.js" type="text/javascript"></script>
+
+  <style type="text/css" media="all">
+  	
+  	.video-js .vjs-big-play-button {display: none;}
+  	
+  </style>
+</head>
+
+<body>
+  <video id='my-player' class='video-js' controls preload='auto' width='640' height='264'
+  poster='https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' data-setup='{}'>
+    <source src='video.mp4' type='video/mp4'>
+    <p class='vjs-no-js'>
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+    </p>
+  </video>
+
+  <button href="#" class="btn">Watch Now</button>
+
+  <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
+</body>
+</html>
