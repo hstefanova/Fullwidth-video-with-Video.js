@@ -1,2 +1,2 @@
-# custom-video-player
-Custom video player 
+# Video.js
+On click button expands a full-width video.
